@@ -1,0 +1,111 @@
+.container-fluid {
+  background-color: white;
+}
+
+#sidebarMenu {
+  background-color: #4a9ddb;
+  height: 700px;
+}
+
+.image {
+  width: 170px;
+  height: auto;
+}
+
+.nav-item .nav-link {
+  color: white;
+  font-size: 16px;
+}
+
+.nav-item .nav-link:hover {
+  background-color: rgb(110, 166, 239);
+  color: white;
+}
+
+.sidebar-heading {
+  background-color: #4a9ddb;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sidebar-heading span {
+  color: white;
+}
+
+/* Estilos de la paginación */
+#pagination-container .pagination {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#pagination-container .pagination .page-item {
+  flex: 1;
+}
+
+#pagination-container .pagination .page-link {
+  padding: 2px 5px;
+  margin: 7px;
+  border: none;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+}
+
+#pagination-container .pagination .page-link:hover {
+  background-color: #ccc;
+}
+
+#pagination-container .pagination .page-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#pagination-container .pagination .page-item.active .page-link {
+  background-color: #333;
+  color: #fff;
+}
+#my-table {
+  font-size: 9px; /* Tamaño de fuente deseado */
+}
+
+#my-table td {
+  vertical-align: middle;
+}
+
+.btn-delete,
+.btn-edit {
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  height: 100%;
+}
+
+.btn-delete i,
+.btn-edit i {
+  margin-bottom: 3px; /* Ajusta el espaciado entre el icono y el texto */
+}
+
+.btn-delete {
+  color: red;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.btn-edit {
+  color: rgba(76, 75, 163, 0.54);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.btn-delete:hover,
+.btn-edit:hover {
+  opacity: 0.8;
+}

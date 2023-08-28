@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+input.form-control {
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+#sidebarMenu {
+  background-color: #4a9ddb;
+  height: 700px;
+}
+
+.image {
+  width: 170px; /* ajusta el ancho según tus necesidades */
+  height: auto; /* mantiene la proporción de aspecto */
+}
+
+.nav-item .nav-link {
+  color: white;
+  font-size: 16px;
+}
+
+.mb-3 {
+  padding-top: 5rem; /* Ajusta el valor según tus necesidades */
+  text-align: center;
+}
+
+.nav-item .nav-link:hover {
+  /* Estilos para el hover */
+  /* Por ejemplo, cambiar el color de fondo */
+  background-color: rgb(110, 166, 239);
+  /* O cambiar el color del texto */
+  color: white;
+}

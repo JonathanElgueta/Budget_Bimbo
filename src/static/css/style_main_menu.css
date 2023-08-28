@@ -1,0 +1,50 @@
+.container-fluid {
+  background-color: white;
+}
+#sidebarMenu {
+  background-color: #4a9ddb;
+}
+
+.image {
+  width: 170px; /* ajusta el ancho según tus necesidades */
+  height: auto; /* mantiene la proporción de aspecto */
+}
+
+.nav-item .nav-link {
+  color: white;
+  font-size: 16px;
+}
+
+.nav-item .nav-link:hover {
+  /* Estilos para el hover */
+  /* Por ejemplo, cambiar el color de fondo */
+  background-color: rgb(110, 166, 239);
+  /* O cambiar el color del texto */
+  color: white;
+}
+.sidebar-heading {
+  background-color: #4a9ddb;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sidebar-heading span {
+  color: white;
+}
+
+.chart {
+  position: relative;
+}
+
+.image-grafico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -480px;
+  width: 800px;
+  height: 280px;
+}
+
+.table-responsive {
+  margin-top: 30px;
+}
